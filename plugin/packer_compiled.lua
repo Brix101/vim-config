@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/brix/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/brix/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/brix/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -122,7 +127,7 @@ _G.packer_plugins = {
   harpoon = {
     loaded = true,
     path = "/home/brix/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/theBrix101/harpoon"
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
