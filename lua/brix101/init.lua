@@ -2,7 +2,7 @@ require("brix101.set")
 require("brix101.remap")
 
 local augroup = vim.api.nvim_create_augroup
-local ThePrimeagenGroup = augroup('ThePrimeagen', {})
+local TheBrixGroup = augroup('TheBrix101', {})
 
 local autocmd = vim.api.nvim_create_autocmd
 local yank_group = augroup('HighlightYank', {})
@@ -23,7 +23,7 @@ autocmd('TextYankPost', {
 })
 
 autocmd({"BufWritePre"}, {
-    group = ThePrimeagenGroup,
+    group = TheBrixGroup,
     pattern = "*",
     command = [[%s/\s\+$//e]],
 })

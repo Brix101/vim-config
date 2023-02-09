@@ -6,6 +6,11 @@ lsp.ensure_installed({
   'tsserver',
   'sumneko_lua',
   'rust_analyzer',
+  "gopls",
+  "tailwindcss",
+  "dockerls",
+  "eslint",
+  "prismals"
 })
 
 -- Fix Undefined global 'vim'
